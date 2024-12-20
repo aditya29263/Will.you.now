@@ -81,10 +81,6 @@
             font-size: 1.8em;
         }
 
-        .hidden {
-            display: none;
-        }
-
         .footer {
             margin-top: 50px;
             font-size: 1.2em;
@@ -103,48 +99,45 @@
 </head>
 <body>
     <div class="container">
-        <h1>Welcome, My Love!</h1>
-        <p>Our journey is just beginning... Together, let’s make it unforgettable.</p>
+        <h1>Youre here Again</h1>
 
         <div class="section">
-            <h2>Special Moments</h2>
-            <p>Take a trip down memory lane with me. We’ve shared so many great memories already, and we have so many more to create.</p>
+            <h2>Other Pages</h2>
             <div class="grid-container">
                 <div class="grid-item">
-                    <h3>Photo Gallery</h3>
-                    <p>View our beautiful moments captured in photos.</p>
-                    <button onclick="location.href='photo-gallery.html'">Explore Photos</button>
+                    <h3>Past Dates</h3>
+                    <p>.</p>
+                    <button onclick="window.open('', '_blank')">.</button>
                 </div>
                 <div class="grid-item">
-                    <h3>Our Story</h3>
-                    <p>Read all about how we met and fell in love.</p>
-                    <button onclick="location.href='our-story.html'">Read Our Story</button>
+                    <h3>Future Dates</h3>
+                    <button onclick="window.open('', '_blank')">.</button>
                 </div>
                 <div class="grid-item">
-                    <h3>Contact Us</h3>
-                    <p>Get in touch with us. We’d love to hear from you.</p>
-                    <button onclick="location.href='contact-us.html'">Contact Us</button>
+                    <h3></h3>
+                    <p></p>
+                    <button onclick="window.open('', '_blank')">.</button>
                 </div>
             </div>
         </div>
 
         <div class="section">
-            <h2>Want to Know More?</h2>
-            <p>Ready for something special? Let's take the next step!</p>
+            <h2>Updates</h2>
+            <p>Farewell Date</p>
             <div class="buttons">
-                <button id="goToWillYouNowBtn">Go to 'Will You Now?' Page</button>
+                <button id="goToWillYouNowBtn">Go to the Page</button>
             </div>
         </div>
 
         <div class="footer">
-            <p>Thanks for visiting our special homepage. <br> <a href="privacy-policy.html">Privacy Policy</a> | <a href="terms-of-service.html">Terms of Service</a></p>
+            <p>. <br> <a href="https://www.example.com/privacy-policy" target="_blank">  </a> | <a href="https://www.example.com/terms-of-service" target="_blank">Terms of Service</a></p>
         </div>
     </div>
 
     <script>
-        // Button to navigate to 'Will You Now?' page
+        // Button to navigate to 'Will You Now?' page (external link)
         document.getElementById("goToWillYouNowBtn").addEventListener("click", function() {
-            window.location.href = 'willyounow.html'; // Ensure the file name is correct
+            window.open('https://www.example.com/willyounow', '_blank'); // Link to external site
         });
     </script>
 </body>
